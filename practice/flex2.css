@@ -1,0 +1,30 @@
+div {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    /* width: 600px; */
+    /* justify-content: space-around; */
+    flex-direction: row-reverse;
+    /* border: 2px solid red; */
+}
+
+p {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: red;
+    border: 2px solid black;
+    justify-content: space-around;
+    /* flex-shrink: 2; */
+    flex-grow: 6;
+    /* flex-wrap: wrap; */
+    overflow: auto;
+    /* align-items: center; */
+    /* align-content: flex-start; */
+}
+
+p:first-child {
+    align-self: flex-end;
+    /* order: 4; */
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="temp.css" />
+    <link rel="stylesheet"
+    href=""https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"">
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header>
+      <nav class="first">
+        <div class="container">
+          <a href="temp.html" class="logo">
+            <img src="images/white-logo.png" alt="" />
+          </a>
+        </div>
+        <div>
+          <ul class="second">
+            <li><a href="temp.html">Home</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="listing.html">Listing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <div class="button">
+                <button>
+                  <a href="#"><i class="fa fa-plus"></i> Add Your Listing</a>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="third">
+        <button>
+        <i class="fa fa-plus"></i>Add Your Listing</button>
+    </div> -->
+      </nav>
+    </header>
+
+    <!-- head area -->
+    <div class="main area">
+      <div class="heading">
+        <h6>OVER 36,500+ ACTIVE LISTINGS</h6>
+        <h1>Find Nearby Places & Things</h1>
+      </div>
+      <!-- <form action="" role="search" method="submit">
+        <div class="search">
+            <div class="areas">
+            <fieldset>
+                <label for="All Area">All Area</label>
+                <select name="area" id="" aria-label="Area" class="form-select">
+                    <option selected>All Areas</option>
+                    <option value="all area">New Village</option>
+                    <option value="all area">Old Town</option>
+                    <option value="all area">Mordern Town</option>
+                </select>
+            </fieldset>
+            </div>
+        </div>
+        </form> -->
+      <form action="">
+        <div>
+          <fieldset class="searchbar">
+            <select name="area" id=s">
+              <option value="All Areas" selected>All Areas</option>
+              <option value="New Village">New Village</option>
+              <option value="Old Town">Old Town</option>
+              <option value="Mordern Town">Mordern Town</option>
+            </select>
+            <input type="search" id="search1" placeholder="Enter a location" />
+            <select name="range" id="select2">
+              Price Range
+              <option selected>Price Range</option>
+              <option value="dollar">$100-$250</option>
+              <option value="dollar">$250-$500</option>
+              <option value="dollar">$500-$1000</option>
+              <option value="dollar">$1000 or more</option>
+            </select>
+            <button class="b">
+                Search Now
+            </button>
+          </fieldset>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+nav {
+    height: 50px;
+    width: 98vw;
+    background-color: teal;
+    border-radius: 10px;
+    /* position: fixed;
+    margin-left :13px; */
+    
+}
+
+.navbar1 {
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.headbar {
+    height: 60px;
+}
+/* button {
+    display: flex;
+    align-items: center;
+} */
+
+header {
+    margin-top: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: pink;
+    color: white;
+    height: 170px;
+    /* justify-content: center; */
+}
+button {
+    /* margin: 20px; */
+    height: 35px;
+    width: 70px;
+    display: flex;
+    /* background-color: blue; */
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+#first {
+    background-color: aqua;
+    /* display: flex; */
+    margin-top: 20px;
+    /* flex-wrap: wrap; */
+}
+
+#second {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: aqua;
+}
+
+#third {
+    background-color: aqua;
+    margin-top: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+#fourth {
+    background-color: aqua;
+    margin-top: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+#fourth {
+    background-color: aqua;
+    margin-top: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.yo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
